@@ -7,7 +7,7 @@ Icarus Verilog and GTKWave.
 
 ## Architecture
 
-[architecture_diagram.png]
+[architecture]
 
 The SAP-1 is an 8-bit CPU with a shared bus 
 architecture consisting of 8 modules connected 
@@ -72,11 +72,12 @@ gtkwave sap1.vcd
 - Verilog HDL
 - Icarus Verilog
 - GTKWave
-- Gowin EDA (upcoming FPGA synthesis)
-- Tang Nano 9K FPGA
+- Gowin EDA (upcoming FPGA synthesis for tangnano9k board)
+
 
 ## Reference
 - SAP-1 Architecture: Malvino & Brown
   "Digital Computer Electronics"
 - HDLBits for Verilog practice
+- Harris & Harris 
 - Ben Eater 8-bit CPU series (YouTube)
