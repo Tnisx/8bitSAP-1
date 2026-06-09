@@ -1,0 +1,13 @@
+module register1(input [7:0]d,input clk,load,reset,output reg [7:0]q);
+always @(posedge clk)begin
+if(reset)begin
+q<=0;
+end
+else begin
+if(load)begin
+q<=d;
+end
+end
+end
+
+endmodule
