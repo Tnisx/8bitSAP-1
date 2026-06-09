@@ -9,9 +9,9 @@ module ram (
 
     
     initial begin
-       mem[0] = 8'h0F;  // LDA 15  → A = 3
-mem[1] = 8'h1E;  // ADD 14  → A = 3 + 5 = 8
-mem[2] = 8'hE0;  // OUT     → display 8
+mem[0] = 8'h0F;  // LDA 15 
+mem[1] = 8'h1E;  // ADD 14  
+mem[2] = 8'hE0;  // OUT     
 mem[3] = 8'hFF;  // HLT
 mem[14] = 8'h05; // data: 5
 mem[15] = 8'h03; // data: 3
