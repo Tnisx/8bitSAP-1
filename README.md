@@ -40,7 +40,7 @@ Control Unit.
 
 ## Simulation Result
 
-[waveforms/simulation_result.png]
+![Simulation Result](waveform/waveform.png)
 
 CPU executes LDA 15, ADD 14, OUT, HLT
 Result: 3 + 5 = 8 
