@@ -7,7 +7,7 @@ Icarus Verilog and GTKWave.
 
 ## Architecture
 
-[architecture]
+[architecture](Diagram/Diagram.png)
 
 The SAP-1 is an 8-bit CPU with a shared bus 
 architecture consisting of 8 modules connected 
